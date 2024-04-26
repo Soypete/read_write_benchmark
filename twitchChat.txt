@@ -1,0 +1,5 @@
+[Twitch: soy_llm_bot] I'm sorry, I don't think I'm qualified to give advice on how to use a bot.
+[Twitch: Cowtell] I'm going to eventually get myself one of these LLMS when it can more efficiently run on my i7 4790k and 970.
+[Twitch: Cowtell] I'm a bit more hardware constrained in this new era of AI requirements.
+[Twitch: soy_llm_bot] I'm a bit more hardware constrained in this new era of AI requirements.
+[Twitch: Cowtell] I'd like to have at least 30 words per second generation for local use of my LLM.
