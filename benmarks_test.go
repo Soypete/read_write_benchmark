@@ -8,38 +8,50 @@ func BenchmarkReadAllFile(b *testing.B) {
 	}
 }
 
-func BenchmarkReadFile(b *testing.B) {
+func BenchmarkReadFileBuf(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		readFile()
+		readFileBuf()
 	}
 }
 
-func BenchmarkStringReader(b *testing.B) {
+func BenchmarkReadFromDB(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		stringReader()
+		readFromDB()
 	}
 }
 
-func BenchmarkByteReader(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		byteReader()
-	}
-}
+// func BenchmarkReadFile(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
+// 		readFile()
+// 	}
+// }
 
-func BenchmarkStringBuilderWriteString(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		stringBuilderWriteString()
-	}
-}
+// func BenchmarkStringReader(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
+// 		stringReader()
+// 	}
+// }
 
-func BenchmarkioCopy(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		ioCopy()
-	}
-}
+// func BenchmarkByteReader(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
+// 		byteReader()
+// 	}
+// }
 
-func BenchmarkByteWriter(b *testing.B) {
-	for i := 0; i < b.N; i++ {
-		byteWriter()
-	}
-}
+// func BenchmarkStringBuilderWriteString(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
+// 		stringBuilderWriteString()
+// 	}
+// }
+
+// func BenchmarkioCopy(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
+// 		ioCopy()
+// 	}
+// }
+
+// func BenchmarkByteWriter(b *testing.B) {
+// 	for i := 0; i < b.N; i++ {
+// 		byteWriter()
+// 	}
+// }
